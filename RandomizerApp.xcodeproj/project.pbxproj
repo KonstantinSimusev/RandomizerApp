@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		08C0AD262862CFC400C44E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0AD252862CFC400C44E55 /* AppDelegate.swift */; };
 		08C0AD282862CFC400C44E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0AD272862CFC400C44E55 /* SceneDelegate.swift */; };
-		08C0AD2A2862CFC400C44E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0AD292862CFC400C44E55 /* ViewController.swift */; };
+		08C0AD2A2862CFC400C44E55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0AD292862CFC400C44E55 /* MainViewController.swift */; };
 		08C0AD2D2862CFC400C44E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C0AD2B2862CFC400C44E55 /* Main.storyboard */; };
 		08C0AD2F2862CFC800C44E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C0AD2E2862CFC800C44E55 /* Assets.xcassets */; };
 		08C0AD322862CFC800C44E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C0AD302862CFC800C44E55 /* LaunchScreen.storyboard */; };
+		08C0AD3A2862F18700C44E55 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0AD392862F18700C44E55 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08C0AD222862CFC400C44E55 /* RandomizerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomizerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C0AD252862CFC400C44E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C0AD272862CFC400C44E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08C0AD292862CFC400C44E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08C0AD292862CFC400C44E55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		08C0AD2C2862CFC400C44E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08C0AD2E2862CFC800C44E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C0AD312862CFC800C44E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08C0AD332862CFC800C44E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C0AD392862F18700C44E55 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				08C0AD252862CFC400C44E55 /* AppDelegate.swift */,
 				08C0AD272862CFC400C44E55 /* SceneDelegate.swift */,
-				08C0AD292862CFC400C44E55 /* ViewController.swift */,
+				08C0AD292862CFC400C44E55 /* MainViewController.swift */,
+				08C0AD392862F18700C44E55 /* SettingsViewController.swift */,
 				08C0AD2B2862CFC400C44E55 /* Main.storyboard */,
 				08C0AD2E2862CFC800C44E55 /* Assets.xcassets */,
 				08C0AD302862CFC800C44E55 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C0AD2A2862CFC400C44E55 /* ViewController.swift in Sources */,
+				08C0AD2A2862CFC400C44E55 /* MainViewController.swift in Sources */,
 				08C0AD262862CFC400C44E55 /* AppDelegate.swift in Sources */,
 				08C0AD282862CFC400C44E55 /* SceneDelegate.swift in Sources */,
+				08C0AD3A2862F18700C44E55 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
